@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MyView: View {
     var body: some View {
         VStack {
             Circle()
@@ -19,8 +19,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MyView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MyView()
     }
 }
